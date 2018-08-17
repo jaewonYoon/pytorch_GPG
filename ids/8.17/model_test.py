@@ -1,8 +1,10 @@
 ##############################
+'''
 Might be better using jupyter notebook. 
 Using kdd99 dataset. 
 Using DNN & pytorch 
 built by jaewon YOON 
+'''
 ##############################
 import pandas as pd
 import numpy as np
