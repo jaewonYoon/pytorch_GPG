@@ -32,7 +32,7 @@ class kddDataset(Dataset):
         #파일 읽어오기
         df = pd.read_csv(Dataset,header=None, names = col_names)
         self.len = df.shape[0]
-        #feature 6개랑 label 값 뽑아오기 
+        #feature 4개랑 label 값 뽑아오기 
         df_select_six_train = df[['flag','protocol_type','service','logged_in','label']]
         #normal값 만 1로 만들고 나머지 0으로 만들기 
         df_select_six_train.label = df_select_six_train.label.replace({'normal':1})
